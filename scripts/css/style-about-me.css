@@ -1,0 +1,218 @@
+/* 
+<<< Limpar formatacoes, e formatacoes genericas >>>
+*/
+*{
+    margin: 0px auto;
+    padding:0px auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: sandybrown;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: sandybrown;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+a:visited{
+    text-decoration: line-through;
+    color: brown;
+}
+/* 
+<<< Cabecalho da Pagina >>>
+*/
+#cabecalho{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+/* 
+<<< Titulo da Pagina >>>
+*/
+#supertitulo{
+    font-size: 40px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: sandybrown;
+}
+/* 
+<<< Conteudo da pagina regras gerais>>>
+*/
+#body-content{
+    width: 1024px;
+}
+
+#content{
+    width: 520px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+/* 
+<<< Conteudo da pagina a esquerda >>>
+*/
+#content-left{
+    width: 230px;
+    margin-top: 30px;
+    padding: 5px;
+    float: left;
+    background-color: #c1c1c1;
+}
+#leftTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif bold;
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+#content-left-tables{
+    background-color: aliceblue;
+    padding: 10px;
+}
+#infoTable{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2px;
+    font-size: 14px;
+}
+#personal-img{
+    width: 160px;
+}
+#personal-img{
+    display: flex;
+}
+/* 
+<<< Conteudo da pagina corpo >>>
+*/
+#postTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid #c1c1c1;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+    color: dodgerblue;
+}
+.bodyImg{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+.mainLink{
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+#postBody{
+    margin: 10px;
+    padding: 3px;
+    background-color: green;
+    color: #f1f1f1;
+}
+#titleMain{
+    font-size: 18px;
+}
+.textBody{
+    margin: 10px;
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #c1c1c1;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+#conteiner{
+    display: grid;
+    width: 500px;
+    height: 800px;
+    display: inline-block;
+}
+
+/* 
+<<< Conteudo da pagina a direita >>>
+*/
+#content-right{
+    float: right;
+    width: 230px;
+    padding: 5px;
+    background-color: #c1c1c1;
+    position: sticky;
+    top: 110px
+}
+.rightTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif bold;
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+#content-right-background{
+    background-color: aliceblue;
+    padding: 10px;
+}
+#codigo-img{
+    width: 200px;
+}
+#infoTable-right{
+    margin: 2px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+
+#infoTable-right a, #infoTable-right a:active{
+    text-decoration: none;
+    background-color:unset;
+    color: darkblue;
+    font-size: 12px;
+    text-decoration: underline;
+}
+/* 
+<<< Rodapé >>>
+*/
+#footer{
+    clear: both;
+    margin-top: 10px;
+    padding: 20px;
+    width: 1004px;
+    background-color: black;
+}
+
+#footerTitle{
+    color: aliceblue;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+#nameFooter{
+    font-size: large;
+    color: saddlebrown;
+}
