@@ -1,0 +1,129 @@
+/* 
+<<< Limpar formatacoes, e formatacoes genericas >>>
+*/
+*{
+    margin: 0px auto;
+    padding:0px auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: sandybrown;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: sandybrown;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+a:visited{
+    text-decoration: line-through;
+    color: brown;
+}
+/* 
+<<< Cabecalho da Pagina >>>
+*/
+#cabecalho{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+/* 
+<<< Titulo da Pagina >>>
+*/
+#supertitulo{
+    font-size: 40px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background-color: sandybrown;
+    margin-top: 25px;
+}
+/* 
+<<< Conteudo da pagina regras gerais>>>
+*/
+#body-content{
+    width: 1024px;
+}
+#content{
+    width: 520px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+#body-table-left{
+    float: left;
+    border: 3px solid black;
+    width: 600px;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#body-table-right{
+    float: right;
+    border: 3px solid black;
+    font-size: 12px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+#cabecalho-tabela{
+    background-color: dodgerblue;
+    color: azure;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+}
+/* 
+<<< Conteudo da pagina a direita >>>
+*/
+#content-right{
+    float: right;
+    width: 230px;
+    padding: 5px;
+    background-color: #c1c1c1;
+}
+#logo-uninter{
+    width: 400px;
+}
+.emCurso{
+    color: red;
+}
+.concluido{
+    color: green;
+}
+/* 
+<<< Rodapé >>>
+*/
+#footer{
+    clear: both;
+    margin-top: 10px;
+    padding: 20px;
+    width: 1004px;
+    background-color: black;
+}
+
+#footerTitle{
+    color: aliceblue;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+#nameFooter{
+    font-size: large;
+    color: saddlebrown;
+}
