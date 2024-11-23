@@ -1,0 +1,180 @@
+/* 
+<<< Limpar formatacoes, e formatacoes genericas >>>
+*/
+*{
+    margin: 0px auto;
+    padding:0px auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: sandybrown;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    background-color: sandybrown;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+}
+a:visited{
+    text-decoration: line-through;
+    color: brown;
+}
+/* 
+<<< Cabecalho da Pagina >>>
+*/
+#cabecalho{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+/* 
+<<< Titulo da Pagina >>>
+*/
+#supertitulo{
+    font-size: 40px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: sandybrown;
+}
+/* 
+<<< Conteudo da pagina regras gerais>>>
+*/
+#body-content{
+    width: 1004px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 
+<<< Conteudo da pagina corpo >>>
+*/
+
+/* 
+<<< Conteudo a esquerda >>>
+*/
+#left-content{
+    width: 400px;
+    margin: 0;
+    padding: 5px;
+    float: left;
+    border: 3px solid black;
+    background-color: #c1c1c1;
+}
+#leftTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif bold;
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+#content-left-tables{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: left;
+}
+/* 
+<<< Conteudo a direita >>>
+*/
+#right-content{
+    width: 500px;
+    margin: 0px;
+    padding: 5px;
+    background-color: black;
+    float: right;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+#tableContact{
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+
+#formContact{
+    padding: 15px;
+    text-align: left;
+}
+.rightTitle{
+    color: sandybrown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif bold;
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+#mensagem{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif bold;
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+#textArea{
+    width: 350px;
+    height: 155px;
+    text-align:left;
+}
+#sendButton{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: saddlebrown;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#sendButton:hover{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+/* 
+<<< Rodapé >>>
+*/
+#footer{
+    clear: both;
+    margin-top: 10px;
+    padding: 20px;
+    width: 1004px;
+    background-color: black;
+}
+
+#footerTitle{
+    color: aliceblue;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+#nameFooter{
+    font-size: large;
+    color: saddlebrown;
+}
